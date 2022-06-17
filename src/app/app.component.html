@@ -1,0 +1,43 @@
+
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Ender's Pizza Logo"
+    src="..\assets\images\enders_pizza.jpg"
+  />
+  <span>Welcome</span>
+    <div class="spacer">
+      <!-- Links and Navigation here -->
+    </div>
+</div>
+
+<div class="content" role="main">
+
+  <!-- Highlight Card -->
+  <div class="card highlight-card card-small">
+    {{ title }} app is running!
+  </div>
+
+
+  <!-- Content -->
+  <div class="content">
+    <h2>Greetings, welcome to the PS Solutions Weather App!</h2>
+    <h3>Current Weather</h3>
+    <app-weather-display></app-weather-display>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer>
+      &copy; Nathan Connacher, 2022
+  </footer>
+
+
+</div>
+
+
+
+<router-outlet></router-outlet>

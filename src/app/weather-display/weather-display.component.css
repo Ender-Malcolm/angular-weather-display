@@ -1,0 +1,10 @@
+td:hover {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  td {
+    border: 1px solid antiquewhite;
+    padding:10px;
+  }
+  table {
+    border-spacing: 20px;
+  }
